@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #e28b00;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ControllerEditRecord">
+    <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #bcbcbc;">
+        <TextField fx:id="typeTextField" layoutX="172.0" layoutY="195.0" prefHeight="44.0" prefWidth="459.0" promptText="Название" style="-fx-background-color: #d9d0d8;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <Button fx:id="cancelButton" layoutX="20.0" layoutY="536.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="106.0" style="-fx-background-color: #000000;" text="Отмена" textFill="WHITE">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <Button fx:id="applyButton" layoutX="672.0" layoutY="532.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="106.0" style="-fx-background-color: #FFFFFF;" text="Применить">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <TextField fx:id="priceTextField" layoutX="171.0" layoutY="250.0" prefHeight="44.0" prefWidth="459.0" promptText="Продюссер" style="-fx-background-color: #d9d0d8;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="addressTextField" layoutX="171.0" layoutY="302.0" prefHeight="44.0" prefWidth="459.0" promptText="Год выпуска" style="-fx-background-color: #d9d0d8;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="descriptionTextField" alignment="TOP_LEFT" layoutX="171.0" layoutY="353.0" prefHeight="199.0" prefWidth="459.0" promptText="Описание" style="-fx-background-color: #d9d0d8;">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <Label fx:id="errorLabel" alignment="CENTER" layoutX="236.0" layoutY="129.0" prefHeight="37.0" prefWidth="329.0" style="-fx-background-color: #bcbcbc;" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" prefHeight="66.0" prefWidth="800.0" style="-fx-background-color: #000000;" text="Подписка на фильм" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="43.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutY="66.0" prefHeight="30.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;" text="Добавить фильм" textAlignment="CENTER">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+</AnchorPane>

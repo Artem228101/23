@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane fx:id="qwe" prefHeight="402.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <Button layoutX="274.0" layoutY="334.0" mnemonicParsing="false" style="-fx-background-color: #171717;"
+                 text="Войти" textFill="WHITE"/>
+         <ImageView id="qwe" fx:id="imgesq" fitHeight="306.0" fitWidth="373.0" layoutX="60.0" layoutY="14.0"
+                    pickOnBounds="true" preserveRatio="true">
+           <image>
+            <Image url="@../../../../../../img/i.png"/>
+           </image>
+         </ImageView>
+      </AnchorPane>
+   </top>
+</BorderPane>

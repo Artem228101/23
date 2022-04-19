@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="331.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-131.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <image>
+                  <Image url="@../../../../../../img/dzhoker.png" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="211.0" BorderPane.alignment="CENTER">
+         <Label layoutX="-32.0" layoutY="240.0" text="Password" textFill="WHITE">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <TextField fx:id="username" layoutX="37.0" layoutY="199.0" promptText="Username" />
+         <Button layoutX="76.0" layoutY="295.0" mnemonicParsing="false" style="-fx-background-color: #a28f8f;" text="Войти" />
+         <Label layoutX="69.0" layoutY="272.0" text="wrongLogin" />
+         <Label layoutX="-34.0" layoutY="201.0" text="Username" textFill="WHITE">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <PasswordField fx:id="password" layoutX="37.0" layoutY="238.0" promptText="Password" />
+         <ImageView fx:id="ikon" fitHeight="75.0" fitWidth="219.0" layoutX="-51.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../img/1234.png" />
+            </image>
+         </ImageView>
+         <Label layoutX="4.0" layoutY="162.0" text="Авторизация" textFill="WHITE">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Label>
+      </AnchorPane>
+   </right>
+</BorderPane>

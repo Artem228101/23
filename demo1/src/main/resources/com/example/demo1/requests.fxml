@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFFAFA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ControllerRequests">
+    <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #bcbcbc;">
+        <Label alignment="CENTER" layoutX="-7.0" prefHeight="66.0" prefWidth="808.0" style="-fx-background-color: #000000;" text="Подписки на фильм" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="43.0" />
+            </font>
+        </Label>
+        <TextField fx:id="idTextField" layoutX="43.0" layoutY="137.0" prefHeight="24.0" prefWidth="81.0" promptText="Введите №">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </TextField>
+        <Label alignment="CENTER" layoutX="-7.0" layoutY="66.0" prefHeight="51.0" prefWidth="808.0" style="-fx-background-color: #FFFFFF;" text="Подписки" textAlignment="CENTER">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+        <TableView fx:id="requestsTable" layoutX="171.0" layoutY="124.0" prefHeight="456.0" prefWidth="453.0">
+            <columns>
+                <TableColumn fx:id="idTC" prefWidth="39.0" text="№" />
+                <TableColumn fx:id="idApartmentsTC" prefWidth="90.0" text="№ фильма" />
+                <TableColumn fx:id="usernameTC" prefWidth="164.0" text="Имя пользователя" />
+            <TableColumn fx:id="usernameTC1" prefWidth="164.0" text="Email" />
+            </columns>
+        </TableView>
+        <Button fx:id="deleteButton" contentDisplay="TOP" layoutX="14.0" layoutY="544.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="57.0" style="-fx-background-color: #65000b;" text="Удалить" textFill="WHITE">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+        <Button fx:id="exitButton" layoutX="720.0" layoutY="544.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="57.0" style="-fx-background-color: #65000b;" text="Выйти" textFill="WHITE">
+            <font>
+                <Font size="11.0" />
+            </font>
+        </Button>
+    </AnchorPane>
+</AnchorPane>
